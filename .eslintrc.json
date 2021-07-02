@@ -1,0 +1,34 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "plugins": ["react", "jsx-a11y", "import"],
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/react-in-jsx-scope": "off",
+    "react/self-closing-comp": "off",
+    "react/jsx-no-undef": "off",
+    "no-unused-vars": 1,
+    "global-require": "off",
+    "import/prefer-default-export": 1,
+    "no-unused-expressions": 1,
+    "prefer-const": "off",
+    "arrow-body-style": "off",
+    "react/button-has-type": "off",
+    "import/order": 1,
+    "import/newline-after-import": 1,
+    "react/prop-types": "off",
+    "react/no-array-index-key": "off",
+    "react-hooks/rules-of-hooks": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-alert": "off"
+  }
+}
